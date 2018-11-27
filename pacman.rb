@@ -53,3 +53,8 @@ when 'Clyde'
   color = 'Orange'
 end
 puts "#{ghost} is the color #{color}"
+
+puts "\n55555555555555\n"
+def eat_dot
+  puts "MUNCH!"
+end
