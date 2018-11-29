@@ -22,3 +22,10 @@ console.log(hero.toUpperCase());
 // used parenthesis so function was called
 console.log(hero.length);
 // length returned 7, the number of characters in 'Pac-Man', because length is a property of the String type, not a function of the String type
+
+
+var highScores = [];
+function addHighScore(highScoreList, playerInitials, score) {
+  var record = { player: playerInitials, score: score };
+  highScoreList.push(record); // add record
+}
